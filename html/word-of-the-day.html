@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Word of the Day</title>
+<style>
+  :root {
+    --scratch-teal: #1abc9c;
+    --scratch-navy-block: #2c3e50;
+    --scratch-navy-text: #1f2e3c;
+    --scratch-dark-gray: #3d4043;
+    --scratch-light-gray: #d7d7d7;
+    --scratch-almost-black: #242527;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--scratch-light-gray);
+    color: var(--scratch-navy-text);
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    text-align: center;
+    color: var(--scratch-navy-block);
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  select, button {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--scratch-dark-gray);
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  button {
+    background-color: var(--scratch-teal);
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+
+  button:hover {
+    background-color: #16a085;
+  }
+
+  .word-card {
+    background-color: var(--scratch-light-gray);
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .word-card h2 {
+    margin: 0 0 10px;
+    color: var(--scratch-almost-black);
+  }
+
+  .word-card p {
+    margin: 5px 0;
+  }
+</style>
+</head>
+<body>
+    
+<div class="container">
+    <h1>Word of the Day</h1>
+    <label for="grade">Select Grade Level:</label>
+    <select id="grade">
+        <option value="K">Kindergarten</option>
+        <option value="1">Grade 1</option>
+        <option value="2">Grade 2</option>
+        <option value="3">Grade 3</option>
+        <option value="4">Grade 4</option>
+        <option value="5">Grade 5</option>
+        <option value="6">Grade 6</option>
+        <option value="7">Grade 7</option>
+        <option value="8">Grade 8</option>
+    </select>
+
+    <label for="subject">Select Subject:</label>
+    <select id="subject">
+        <option value="Random">Random</option>
+        <option value="Science">Science</option>
+        <option value="Social Studies">Social Studies</option>
+        <option value="Language Arts">Language Arts</option>
+        <option value="Math">Math</option>
+    </select>
+
+    <button onclick="generateWord()">Generate Word</button>
+
+
+<!-- This code works, but you can't select the subject
+    <label for="grade">Select Grade Level:</label>
+    <select id="grade">
+        <option value="K">Kindergarten</option>
+        <option value="1">Grade 1</option>
+        <option value="2">Grade 2</option>
+        <option value="3">Grade 3</option>
+        <option value="4">Grade 4</option>
+        <option value="5">Grade 5</option>
+        <option value="6">Grade 6</option>
+        <option value="7">Grade 7</option>
+        <option value="8">Grade 8</option>
+    </select>
+    <button onclick="generateWord()">Generate Word</button>
+-->
+
+
+    <div id="wordOutput" class="word-card" style="display:none;"></div>
+</div>
+
+<script>
+let wordsData = {};
+
+async function loadWords() {
+  try {
+    const response = await fetch('words.json'); // ensure words.json is in same folder
+    if (!response.ok) throw new Error("Could not load words.json");
+    wordsData = await response.json();
+    console.log("Words loaded:", wordsData); // debug check
+  } catch (error) {
+    console.error("Error loading word list:", error);
+  }
+}
+
+function generateWord() {
+  const grade = document.getElementById('grade').value;
+  const subjectChoice = document.getElementById('subject').value;
+
+  if (!wordsData[grade]) {
+    alert(`No data found for grade ${grade}.`);
+    return;
+  }
+
+  let subject = subjectChoice;
+  if (subjectChoice === "Random") {
+    const subjects = Object.keys(wordsData[grade]); // ["Science","Social Studies","Language Arts","Math"]
+    subject = subjects[Math.floor(Math.random() * subjects.length)];
+  }
+
+  const subjectList = wordsData[grade][subject];
+  if (!subjectList || subjectList.length === 0) {
+    alert(`No words available for Grade ${grade} in ${subject}.`);
+    return;
+  }
+
+  const randomWord = subjectList[Math.floor(Math.random() * subjectList.length)];
+
+  document.getElementById('wordOutput').innerHTML = `
+    <h2>${randomWord.word}</h2>
+    <p><strong>Subject:</strong> ${subject}</p>
+    <p><strong>Definition:</strong> ${randomWord.definition}</p>
+    <p><strong>Synonyms:</strong> ${randomWord.synonyms.join(", ")}</p>
+    ${randomWord.antonym ? `<p><strong>Antonym:</strong> ${randomWord.antonym}</p>` : ""}
+    <p><strong>Example:</strong> ${randomWord.example}</p>
+  `;
+  document.getElementById('wordOutput').style.display = "block";
+}
+
+window.onload = loadWords;
+</script>
+
+<!-- This version works, but you can't select the subject 
+<script>
+let wordsData = {};
+
+async function loadWords() {
+  try {
+    const response = await fetch('words.json');
+    if (!response.ok) throw new Error("Could not load words.json");
+    wordsData = await response.json();
+  } catch (error) {
+    console.error("Error loading word list:", error);
+  }
+}
+
+function generateWord() {
+  const grade = document.getElementById('grade').value;
+  const wordList = wordsData[grade];
+  if (!wordList || wordList.length === 0) {
+    alert("No words available for this grade.");
+    return;
+  }
+  const randomWord = wordList[Math.floor(Math.random() * wordList.length)];
+
+  document.getElementById('wordOutput').innerHTML = `
+    <h2>${randomWord.word}</h2>
+    <p><strong>Definition:</strong> ${randomWord.definition}</p>
+    <p><strong>Synonyms:</strong> ${randomWord.synonyms.join(", ")}</p>
+    <p><strong>Antonym:</strong> ${randomWord.antonym}</p>
+    <p><strong>Example:</strong> ${randomWord.example}</p>
+  `;
+  document.getElementById('wordOutput').style.display = "block";
+}
+
+// Load words as soon as the page loads
+window.onload = loadWords;
+</script>
+-->
+
+<!-- This version works, but has fewer vocab words
+<script>
+const words = {
+  K: [
+    { word: "Happy", definition: "Feeling good or pleased.", synonyms: ["glad", "cheerful"], antonym: "sad", example: "I am happy when I play with my friends." }
+  ],
+  1: [
+    { word: "Brave", definition: "Showing courage.", synonyms: ["fearless", "bold"], antonym: "scared", example: "The brave dog rescued the kitten." }
+  ],
+  2: [
+    { word: "Gigantic", definition: "Very big.", synonyms: ["huge", "enormous"], antonym: "tiny", example: "The gigantic balloon floated over the city." }
+  ],
+  3: [
+    { word: "Observe", definition: "To watch carefully.", synonyms: ["notice", "see"], antonym: "ignore", example: "We observe the stars at night." }
+  ],
+  4: [
+    { word: "Predict", definition: "To say what will happen in the future.", synonyms: ["forecast", "anticipate"], antonym: "ignore", example: "I predict it will rain tomorrow." }
+  ],
+  5: [
+    { word: "Reluctant", definition: "Not wanting to do something.", synonyms: ["unwilling", "hesitant"], antonym: "eager", example: "She was reluctant to try the new food." }
+  ],
+  6: [
+    { word: "Analyze", definition: "To study something closely.", synonyms: ["examine", "inspect"], antonym: "neglect", example: "Scientists analyze data to learn new things." }
+  ],
+  7: [
+    { word: "Ambiguous", definition: "Having more than one meaning.", synonyms: ["unclear", "vague"], antonym: "clear", example: "The message was ambiguous and confusing." }
+  ],
+  8: [
+    { word: "Innovate", definition: "To create something new.", synonyms: ["invent", "pioneer"], antonym: "imitate", example: "Inventors innovate to solve problems." }
+  ]
+};
+
+function generateWord() {
+  const grade = document.getElementById('grade').value;
+  const wordList = words[grade];
+  const randomWord = wordList[Math.floor(Math.random() * wordList.length)];
+
+  document.getElementById('wordOutput').innerHTML = `
+    <h2>${randomWord.word}</h2>
+    <p><strong>Definition:</strong> ${randomWord.definition}</p>
+    <p><strong>Synonyms:</strong> ${randomWord.synonyms.join(", ")}</p>
+    <p><strong>Antonym:</strong> ${randomWord.antonym}</p>
+    <p><strong>Example:</strong> ${randomWord.example}</p>
+  `;
+  document.getElementById('wordOutput').style.display = "block";
+}
+</script>
+-->
+
+</body>
+</html>

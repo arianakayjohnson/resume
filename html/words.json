@@ -1,0 +1,1393 @@
+{
+  "K": {
+    "Science": [
+      {
+        "word": "air",
+        "definition": "The invisible gas around us that we breathe.",
+        "synonyms": ["atmosphere", "oxygen", "breeze"],
+        "antonym": null,
+        "example": "We need air to live."
+      },
+      {
+        "word": "alike",
+        "definition": "Being the same in some ways.",
+        "synonyms": ["similar", "same", "matching"],
+        "antonym": "different",
+        "example": "The two cats look alike."
+      },
+      {
+        "word": "animal",
+        "definition": "A living thing that can move and eat food.",
+        "synonyms": ["creature", "beast", "organism"],
+        "antonym": "plant",
+        "example": "A dog is an animal."
+      },
+      {
+        "word": "day",
+        "definition": "The time when the sun is up.",
+        "synonyms": ["daytime", "sunlight", "morning"],
+        "antonym": "night",
+        "example": "We play outside during the day."
+      },
+      {
+        "word": "different",
+        "definition": "Not the same as something else.",
+        "synonyms": ["unlike", "distinct", "varied"],
+        "antonym": "same",
+        "example": "My shoes are different colors."
+      },
+      {
+        "word": "Earth",
+        "definition": "The planet we live on.",
+        "synonyms": ["world", "globe", "planet"],
+        "antonym": null,
+        "example": "Earth has land, water, and air."
+      },
+      {
+        "word": "energy",
+        "definition": "The power to make things move or work.",
+        "synonyms": ["power", "strength", "force"],
+        "antonym": null,
+        "example": "We need energy to run and play."
+      },
+      {
+        "word": "gas",
+        "definition": "A state of matter that spreads out to fill its space.",
+        "synonyms": ["vapor", "air", "fumes"],
+        "antonym": "solid",
+        "example": "Steam is a type of gas."
+      },
+      {
+        "word": "heat",
+        "definition": "Warmth or high temperature.",
+        "synonyms": ["warmth", "hotness", "warm air"],
+        "antonym": "cold",
+        "example": "The sun gives us heat."
+      },
+      {
+        "word": "light",
+        "definition": "Something that makes it possible to see.",
+        "synonyms": ["brightness", "illumination", "glow"],
+        "antonym": "darkness",
+        "example": "The lamp gives light at night."
+      }
+    ],
+    "Social Studies": [
+      {
+        "word": "calendar",
+        "definition": "A chart that shows the days, weeks, and months of the year.",
+        "synonyms": ["schedule", "planner", "almanac"],
+        "antonym": null,
+        "example": "We marked her birthday on the calendar."
+      },
+      {
+        "word": "chore",
+        "definition": "A small job you do regularly.",
+        "synonyms": ["task", "duty", "job"],
+        "antonym": null,
+        "example": "My chore is to feed the dog."
+      },
+      {
+        "word": "communicate",
+        "definition": "To share ideas or information with others.",
+        "synonyms": ["talk", "share", "express"],
+        "antonym": "ignore",
+        "example": "We use words to communicate."
+      },
+      {
+        "word": "community",
+        "definition": "A group of people living in the same area.",
+        "synonyms": ["neighborhood", "society", "town"],
+        "antonym": null,
+        "example": "Our community has a park."
+      },
+      {
+        "word": "fairness",
+        "definition": "Treating people equally and kindly.",
+        "synonyms": ["justice", "equality", "honesty"],
+        "antonym": "unfairness",
+        "example": "Fairness means everyone gets a turn."
+      }
+    ],
+    "Language Arts": [
+      {
+        "word": "alphabet",
+        "definition": "The set of letters used to write a language.",
+        "synonyms": ["ABCs", "letters", "characters"],
+        "antonym": null,
+        "example": "We sang the alphabet song."
+      },
+      {
+        "word": "back cover",
+        "definition": "The back part of a book that protects its pages.",
+        "synonyms": ["book cover", "binding", "jacket"],
+        "antonym": null,
+        "example": "The back cover has a summary of the story."
+      },
+      {
+        "word": "book",
+        "definition": "Pages bound together with words and pictures.",
+        "synonyms": ["novel", "story", "text"],
+        "antonym": null,
+        "example": "I borrowed a book from the library."
+      },
+      {
+        "word": "cover",
+        "definition": "The outside of a book that protects it.",
+        "synonyms": ["binding", "jacket", "wrap"],
+        "antonym": null,
+        "example": "The book's cover is blue."
+      },
+      {
+        "word": "date",
+        "definition": "A day of the month and year.",
+        "synonyms": ["day", "time", "moment"],
+        "antonym": null,
+        "example": "Today’s date is June 5."
+      }
+    ],
+    "Math": [
+      {
+        "word": "above",
+        "definition": "Higher than something else.",
+        "synonyms": ["over", "higher", "atop"],
+        "antonym": "below",
+        "example": "The picture hangs above the couch."
+      },
+      {
+        "word": "balance",
+        "definition": "An even distribution of weight.",
+        "synonyms": ["stability", "steadiness", "equilibrium"],
+        "antonym": "imbalance",
+        "example": "He tried to keep his balance on the beam."
+      },
+      {
+        "word": "behind",
+        "definition": "At the back of something.",
+        "synonyms": ["in back", "after", "rear"],
+        "antonym": "in front",
+        "example": "The cat hides behind the chair."
+      },
+      {
+        "word": "below",
+        "definition": "Lower than something else.",
+        "synonyms": ["under", "beneath", "down"],
+        "antonym": "above",
+        "example": "The basement is below the house."
+      },
+      {
+        "word": "between",
+        "definition": "In the space separating two things.",
+        "synonyms": ["among", "amid", "middle"],
+        "antonym": null,
+        "example": "The ball rolled between the chairs."
+      }
+    ]
+  },
+
+  "1": {
+    "Science": [
+      {
+        "word": "balance",
+        "definition": "To keep weight even so something does not tip over.",
+        "synonyms": ["stability", "steadiness", "equilibrium"],
+        "antonym": "imbalance",
+        "example": "The gymnast has great balance."
+      },
+      {
+        "word": "energy",
+        "definition": "The power to make things happen or move.",
+        "synonyms": ["power", "strength", "force"],
+        "antonym": null,
+        "example": "We use energy to run and play."
+      },
+      {
+        "word": "evaporation",
+        "definition": "When a liquid changes into a gas.",
+        "synonyms": ["drying", "vaporization"],
+        "antonym": null,
+        "example": "Puddles shrink because of evaporation."
+      },
+      {
+        "word": "food chain",
+        "definition": "The order in which living things eat each other.",
+        "synonyms": ["feeding order", "food web"],
+        "antonym": null,
+        "example": "Grass is the first step in the food chain for many animals."
+      },
+      {
+        "word": "force",
+        "definition": "A push or pull that can move something.",
+        "synonyms": ["push", "pull", "strength"],
+        "antonym": null,
+        "example": "It takes force to open the heavy door."
+      }
+    ],
+    "Social Studies": [
+      {
+        "word": "budget",
+        "definition": "A plan for how to spend and save money.",
+        "synonyms": ["spending plan", "financial plan"],
+        "antonym": null,
+        "example": "We made a budget to save for a bike."
+      },
+      {
+        "word": "capital",
+        "definition": "The city where a government is located.",
+        "synonyms": ["head city", "government city"],
+        "antonym": null,
+        "example": "Austin is the capital of Texas."
+      },
+      {
+        "word": "citizen",
+        "definition": "A person who belongs to a country.",
+        "synonyms": ["resident", "inhabitant"],
+        "antonym": "foreigner",
+        "example": "I am a citizen of the United States."
+      },
+      {
+        "word": "continent",
+        "definition": "A large area of land on Earth.",
+        "synonyms": ["landmass", "region"],
+        "antonym": null,
+        "example": "Asia is the largest continent."
+      },
+      {
+        "word": "country",
+        "definition": "An area of land with its own government.",
+        "synonyms": ["nation", "state"],
+        "antonym": null,
+        "example": "Canada is a country north of the United States."
+      }
+    ],
+    "Language Arts": [
+      {
+        "word": "author",
+        "definition": "A person who writes a book or story.",
+        "synonyms": ["writer", "novelist"],
+        "antonym": null,
+        "example": "Dr. Seuss is the author of many children's books."
+      },
+      {
+        "word": "beginning",
+        "definition": "The start of something.",
+        "synonyms": ["start", "opening"],
+        "antonym": "end",
+        "example": "The beginning of the story introduces the characters."
+      },
+      {
+        "word": "blend",
+        "definition": "To mix things together.",
+        "synonyms": ["mix", "combine"],
+        "antonym": "separate",
+        "example": "We blend red and blue paint to make purple."
+      },
+      {
+        "word": "consonant",
+        "definition": "A letter of the alphabet that is not a vowel.",
+        "synonyms": ["letter", "sound"],
+        "antonym": "vowel",
+        "example": "The letter B is a consonant."
+      },
+      {
+        "word": "consonant blend",
+        "definition": "Two or more consonants together where each keeps its sound.",
+        "synonyms": ["letter mix", "sound group"],
+        "antonym": null,
+        "example": "In 'stop', st is a consonant blend."
+      }
+    ],
+    "Math": [
+      {
+        "word": "addend",
+        "definition": "A number being added to another.",
+        "synonyms": ["term", "number"],
+        "antonym": null,
+        "example": "In 3 + 2 = 5, both 3 and 2 are addends."
+      },
+      {
+        "word": "addition",
+        "definition": "The act of putting numbers together to find the total.",
+        "synonyms": ["sum", "totaling"],
+        "antonym": "subtraction",
+        "example": "We use addition to find how many apples we have."
+      },
+      {
+        "word": "a.m.",
+        "definition": "The time between midnight and noon.",
+        "synonyms": ["morning", "before noon"],
+        "antonym": "p.m.",
+        "example": "We eat breakfast in the a.m."
+      },
+      {
+        "word": "analog",
+        "definition": "A type of clock with hands that point to numbers.",
+        "synonyms": ["non-digital", "clock face"],
+        "antonym": "digital",
+        "example": "Our classroom clock is analog."
+      },
+      {
+        "word": "array",
+        "definition": "Objects arranged in rows and columns.",
+        "synonyms": ["arrangement", "grid"],
+        "antonym": null,
+        "example": "The chairs are in an array of three rows."
+      }
+    ]
+  },
+
+  "2": {
+    "Science": [
+      {
+        "word": "attract",
+        "definition": "To pull toward something.",
+        "synonyms": ["draw", "pull"],
+        "antonym": "repel",
+        "example": "Magnets attract some metals."
+      },
+      {
+        "word": "axis",
+        "definition": "An imaginary line a planet spins around.",
+        "synonyms": ["center line", "rotation line"],
+        "antonym": null,
+        "example": "Earth rotates on its axis."
+      },
+      {
+        "word": "bird",
+        "definition": "An animal with feathers and wings.",
+        "synonyms": ["avian", "fowl"],
+        "antonym": null,
+        "example": "The bird flew to its nest."
+      },
+      {
+        "word": "consumer",
+        "definition": "A living thing that eats plants or other animals.",
+        "synonyms": ["eater", "predator"],
+        "antonym": "producer",
+        "example": "A rabbit is a consumer that eats plants."
+      },
+      {
+        "word": "energy",
+        "definition": "Power that makes things work or move.",
+        "synonyms": ["power", "strength"],
+        "antonym": null,
+        "example": "We get energy from food."
+      }
+    ],
+    "Social Studies": [
+      {
+        "word": "barter",
+        "definition": "To trade goods or services without using money.",
+        "synonyms": ["trade", "exchange"],
+        "antonym": "buy",
+        "example": "They barter apples for oranges."
+      },
+      {
+        "word": "colonist",
+        "definition": "A person who lives in a new settlement.",
+        "synonyms": ["settler", "pioneer"],
+        "antonym": null,
+        "example": "The colonist built a home near the river."
+      },
+      {
+        "word": "compass rose",
+        "definition": "A map symbol showing directions.",
+        "synonyms": ["direction marker", "navigation symbol"],
+        "antonym": null,
+        "example": "The compass rose points north."
+      },
+      {
+        "word": "consumer",
+        "definition": "A person who buys and uses goods.",
+        "synonyms": ["buyer", "customer"],
+        "antonym": "seller",
+        "example": "As a consumer, she looks for good prices."
+      },
+      {
+        "word": "courage",
+        "definition": "The ability to do something even if it is scary.",
+        "synonyms": ["bravery", "boldness"],
+        "antonym": "fear",
+        "example": "He showed courage by speaking in front of the class."
+      }
+    ],
+    "Language Arts": [
+      {
+        "word": "chapter",
+        "definition": "A section of a book.",
+        "synonyms": ["section", "part"],
+        "antonym": null,
+        "example": "We read the first chapter of the story."
+      },
+      {
+        "word": "composition",
+        "definition": "A piece of writing.",
+        "synonyms": ["essay", "text"],
+        "antonym": null,
+        "example": "She wrote a composition about her summer."
+      },
+      {
+        "word": "comprehension",
+        "definition": "Understanding what you read or hear.",
+        "synonyms": ["understanding", "grasp"],
+        "antonym": "confusion",
+        "example": "Good comprehension helps you enjoy books."
+      },
+      {
+        "word": "discussion",
+        "definition": "Talking with others to share ideas.",
+        "synonyms": ["conversation", "debate"],
+        "antonym": null,
+        "example": "We had a discussion about the story."
+      },
+      {
+        "word": "fairy tale",
+        "definition": "A make-believe story, often with magic.",
+        "synonyms": ["folk story", "fantasy"],
+        "antonym": null,
+        "example": "Cinderella is a fairy tale."
+      }
+    ],
+    "Math": [
+      {
+        "word": "2-dimensional",
+        "definition": "A flat shape with length and width.",
+        "synonyms": ["flat", "plane shape"],
+        "antonym": "3-dimensional",
+        "example": "A square is 2-dimensional."
+      },
+      {
+        "word": "3-dimensional",
+        "definition": "A shape with length, width, and height.",
+        "synonyms": ["solid", "form"],
+        "antonym": "2-dimensional",
+        "example": "A cube is 3-dimensional."
+      },
+      {
+        "word": "angle",
+        "definition": "The space between two lines that meet.",
+        "synonyms": ["corner", "point"],
+        "antonym": null,
+        "example": "A right angle is 90 degrees."
+      },
+      {
+        "word": "array",
+        "definition": "Things arranged in rows and columns.",
+        "synonyms": ["arrangement", "grid"],
+        "antonym": null,
+        "example": "The desks form an array."
+      },
+      {
+        "word": "centimeter",
+        "definition": "A small unit of length.",
+        "synonyms": ["cm", "measure"],
+        "antonym": null,
+        "example": "The paperclip is three centimeters long."
+      }
+    ]
+  },
+
+  "3": {
+  "Science": [
+    {
+      "word": "adaptation",
+      "definition": "A change in a plant or animal that helps it live in its environment.",
+      "synonyms": ["adjustment", "change"],
+      "antonym": null,
+      "example": "Thick fur is an adaptation for cold weather."
+    },
+    {
+      "word": "axis",
+      "definition": "An imaginary line a planet spins around.",
+      "synonyms": ["center line", "rotation line"],
+      "antonym": null,
+      "example": "Earth rotates on its axis."
+    },
+    {
+      "word": "carnivore",
+      "definition": "An animal that eats meat.",
+      "synonyms": ["meat-eater", "predator"],
+      "antonym": "herbivore",
+      "example": "A lion is a carnivore."
+    },
+    {
+      "word": "community",
+      "definition": "A group of plants and animals living in the same area.",
+      "synonyms": ["group", "population"],
+      "antonym": null,
+      "example": "The pond is home to a frog community."
+    },
+    {
+      "word": "constellation",
+      "definition": "A group of stars that form a pattern.",
+      "synonyms": ["star group", "star pattern"],
+      "antonym": null,
+      "example": "Orion is a famous constellation."
+    }
+  ],
+  "Social Studies": [
+    {
+      "word": "adapt",
+      "definition": "To change to fit new conditions.",
+      "synonyms": ["adjust", "change"],
+      "antonym": "resist",
+      "example": "We adapt to cold weather by wearing coats."
+    },
+    {
+      "word": "ancestor",
+      "definition": "A family member from long ago.",
+      "synonyms": ["forefather", "relative"],
+      "antonym": "descendant",
+      "example": "My great-grandfather is my ancestor."
+    },
+    {
+      "word": "artifact",
+      "definition": "An object made by people in the past.",
+      "synonyms": ["object", "relic"],
+      "antonym": null,
+      "example": "The museum has an ancient artifact."
+    },
+    {
+      "word": "barrier island",
+      "definition": "A long, narrow island that protects the coast.",
+      "synonyms": ["coastal island", "sand island"],
+      "antonym": null,
+      "example": "The barrier island helps block big waves."
+    },
+    {
+      "word": "citizenship",
+      "definition": "The duties and rights of being a citizen.",
+      "synonyms": ["membership", "allegiance"],
+      "antonym": null,
+      "example": "Voting is part of good citizenship."
+    }
+  ],
+  "Language Arts": [
+    {
+      "word": "appendix",
+      "definition": "Extra information at the end of a book.",
+      "synonyms": ["supplement", "add-on"],
+      "antonym": null,
+      "example": "The appendix has maps and charts."
+    },
+    {
+      "word": "character",
+      "definition": "A person or animal in a story.",
+      "synonyms": ["figure", "persona"],
+      "antonym": null,
+      "example": "The main character goes on a journey."
+    },
+    {
+      "word": "chapter title",
+      "definition": "The name of a chapter in a book.",
+      "synonyms": ["heading", "label"],
+      "antonym": null,
+      "example": "The chapter title tells what the section is about."
+    },
+    {
+      "word": "fairy tale",
+      "definition": "A make-believe story, often with magic.",
+      "synonyms": ["folk story", "fantasy"],
+      "antonym": null,
+      "example": "Sleeping Beauty is a fairy tale."
+    },
+    {
+      "word": "chronological order",
+      "definition": "Putting events in the order they happened.",
+      "synonyms": ["time order", "sequence"],
+      "antonym": null,
+      "example": "We wrote the story in chronological order."
+    }
+  ],
+  "Math": [
+    {
+      "word": "algorithm",
+      "definition": "A step-by-step way to solve a problem.",
+      "synonyms": ["procedure", "method"],
+      "antonym": null,
+      "example": "We used an algorithm to add numbers."
+    },
+    {
+      "word": "area",
+      "definition": "The amount of space inside a shape.",
+      "synonyms": ["surface size", "extent"],
+      "antonym": null,
+      "example": "The area of the rectangle is 12 square units."
+    },
+    {
+      "word": "axes",
+      "definition": "The two lines that form a graph.",
+      "synonyms": ["reference lines", "coordinates"],
+      "antonym": null,
+      "example": "The x and y axes meet at the origin."
+    },
+    {
+      "word": "capacity",
+      "definition": "The amount something can hold.",
+      "synonyms": ["volume", "size"],
+      "antonym": null,
+      "example": "The bottle has a capacity of one liter."
+    },
+    {
+      "word": "diameter",
+      "definition": "A straight line across the middle of a circle.",
+      "synonyms": ["width", "breadth"],
+      "antonym": null,
+      "example": "The diameter of the pizza is 12 inches."
+    }
+  ]
+},
+
+"4": {
+  "Science": [
+    {
+      "word": "atmosphere",
+      "definition": "The layer of gases around Earth.",
+      "synonyms": ["air", "sky"],
+      "antonym": null,
+      "example": "The atmosphere protects us from the sun's harmful rays."
+    },
+    {
+      "word": "chemical change",
+      "definition": "A change that makes a new substance.",
+      "synonyms": ["reaction", "transformation"],
+      "antonym": "physical change",
+      "example": "Burning wood is a chemical change."
+    },
+    {
+      "word": "axis",
+      "definition": "An imaginary line a planet spins around.",
+      "synonyms": ["center line", "rotation line"],
+      "antonym": null,
+      "example": "Earth rotates on its axis."
+    },
+    {
+      "word": "carnivore",
+      "definition": "An animal that eats meat.",
+      "synonyms": ["meat-eater", "predator"],
+      "antonym": "herbivore",
+      "example": "A tiger is a carnivore."
+    },
+    {
+      "word": "conservation",
+      "definition": "Protecting and caring for resources.",
+      "synonyms": ["protection", "preservation"],
+      "antonym": "waste",
+      "example": "Turning off lights is part of energy conservation."
+    }
+  ],
+  "Social Studies": [
+    {
+      "word": "agriculture",
+      "definition": "Farming and raising animals for food.",
+      "synonyms": ["farming", "cultivation"],
+      "antonym": null,
+      "example": "Agriculture provides us with fruits and vegetables."
+    },
+    {
+      "word": "artifact",
+      "definition": "An object made by people in the past.",
+      "synonyms": ["object", "relic"],
+      "antonym": null,
+      "example": "The artifact was found during the dig."
+    },
+    {
+      "word": "boundary",
+      "definition": "A line that marks the edge of an area.",
+      "synonyms": ["border", "limit"],
+      "antonym": "center",
+      "example": "The fence is the boundary of our yard."
+    },
+    {
+      "word": "boycott",
+      "definition": "To refuse to buy or use something as a protest.",
+      "synonyms": ["protest", "ban"],
+      "antonym": "support",
+      "example": "The group will boycott the store."
+    },
+    {
+      "word": "cash crop",
+      "definition": "A crop grown to sell for money.",
+      "synonyms": ["sale crop", "market crop"],
+      "antonym": null,
+      "example": "Cotton was an important cash crop."
+    }
+  ],
+  "Language Arts": [
+    {
+      "word": "able",
+      "definition": "Having the power or skill to do something.",
+      "synonyms": ["capable", "competent"],
+      "antonym": "unable",
+      "example": "She is able to swim across the pool."
+    },
+    {
+      "word": "audience",
+      "definition": "A group of people watching or listening.",
+      "synonyms": ["spectators", "viewers"],
+      "antonym": null,
+      "example": "The audience clapped at the end of the play."
+    },
+    {
+      "word": "adjective",
+      "definition": "A word that describes a noun.",
+      "synonyms": ["describing word", "modifier"],
+      "antonym": null,
+      "example": "In 'red apple', red is an adjective."
+    },
+    {
+      "word": "antonym",
+      "definition": "A word that means the opposite of another word.",
+      "synonyms": ["opposite", "reverse"],
+      "antonym": null,
+      "example": "'Hot' is an antonym of 'cold'."
+    },
+    {
+      "word": "author's purpose",
+      "definition": "The reason an author writes something.",
+      "synonyms": ["intent", "goal"],
+      "antonym": null,
+      "example": "Her author's purpose was to inform readers."
+    }
+  ],
+  "Math": [
+    {
+      "word": "acute angle",
+      "definition": "An angle smaller than 90 degrees.",
+      "synonyms": ["sharp angle", "narrow angle"],
+      "antonym": "obtuse angle",
+      "example": "The triangle has an acute angle."
+    },
+    {
+      "word": "axes",
+      "definition": "The two lines that form a graph.",
+      "synonyms": ["reference lines", "coordinates"],
+      "antonym": null,
+      "example": "The data is plotted along the axes."
+    },
+    {
+      "word": "decimal",
+      "definition": "A number with a point separating whole numbers from parts.",
+      "synonyms": ["fraction", "point number"],
+      "antonym": null,
+      "example": "0.5 is a decimal."
+    },
+    {
+      "word": "diameter",
+      "definition": "A line across a circle through its center.",
+      "synonyms": ["width", "breadth"],
+      "antonym": null,
+      "example": "The diameter of the jar is 10 cm."
+    },
+    {
+      "word": "equivalent forms",
+      "definition": "Different ways of showing the same value.",
+      "synonyms": ["equal values", "same amount"],
+      "antonym": null,
+      "example": "0.5 and 1/2 are equivalent forms."
+    }
+  ]
+},
+"5": {
+  "Science": [
+    {
+      "word": "atom",
+      "definition": "The smallest part of an element.",
+      "synonyms": ["particle", "molecule"],
+      "antonym": null,
+      "example": "Everything is made of atoms."
+    },
+    {
+      "word": "change of state",
+      "definition": "When matter changes from one form to another.",
+      "synonyms": ["phase change", "transformation"],
+      "antonym": null,
+      "example": "Melting is a change of state."
+    },
+    {
+      "word": "compound",
+      "definition": "A substance made of two or more elements.",
+      "synonyms": ["mixture", "combination"],
+      "antonym": "element",
+      "example": "Water is a compound of hydrogen and oxygen."
+    },
+    {
+      "word": "conduction",
+      "definition": "The transfer of heat through touch.",
+      "synonyms": ["heat transfer", "transmission"],
+      "antonym": null,
+      "example": "A metal spoon gets hot through conduction."
+    },
+    {
+      "word": "convection",
+      "definition": "Heat movement through liquids or gases.",
+      "synonyms": ["heat flow", "circulation"],
+      "antonym": null,
+      "example": "Boiling water moves heat by convection."
+    }
+  ],
+  "Social Studies": [
+    {
+      "word": "abolish",
+      "definition": "To end something officially.",
+      "synonyms": ["end", "eliminate"],
+      "antonym": "establish",
+      "example": "They voted to abolish the old law."
+    },
+    {
+      "word": "amendment",
+      "definition": "A change to a law or document.",
+      "synonyms": ["modification", "revision"],
+      "antonym": null,
+      "example": "The First Amendment protects free speech."
+    },
+    {
+      "word": "Articles of Confederation",
+      "definition": "The first plan for the U.S. government.",
+      "synonyms": ["original constitution", "early laws"],
+      "antonym": null,
+      "example": "The Articles of Confederation were later replaced."
+    },
+    {
+      "word": "American Revolution",
+      "definition": "The war for independence from Britain.",
+      "synonyms": ["War of Independence", "Revolutionary War"],
+      "antonym": null,
+      "example": "The American Revolution began in 1775."
+    },
+    {
+      "word": "Bill of Rights",
+      "definition": "The first ten amendments to the U.S. Constitution.",
+      "synonyms": ["rights list", "civil rights law"],
+      "antonym": null,
+      "example": "The Bill of Rights protects individual freedoms."
+    }
+  ],
+  "Language Arts": [
+    {
+      "word": "abbreviation",
+      "definition": "A short form of a word.",
+      "synonyms": ["short form", "initials"],
+      "antonym": null,
+      "example": "Dr. is an abbreviation for Doctor."
+    },
+    {
+      "word": "action verb",
+      "definition": "A verb that shows action.",
+      "synonyms": ["doing word", "movement word"],
+      "antonym": null,
+      "example": "Run is an action verb."
+    },
+    {
+      "word": "apostrophe",
+      "definition": "A mark used in contractions or to show possession.",
+      "synonyms": ["punctuation mark", "symbol"],
+      "antonym": null,
+      "example": "We use an apostrophe in 'can't'."
+    },
+    {
+      "word": "cause and effect",
+      "definition": "When one thing makes another happen.",
+      "synonyms": ["reason and result", "cause-result"],
+      "antonym": null,
+      "example": "Rain caused the river to flood — that is cause and effect."
+    },
+    {
+      "word": "character development",
+      "definition": "How a character changes in a story.",
+      "synonyms": ["character growth", "character change"],
+      "antonym": null,
+      "example": "The hero’s bravery is part of her character development."
+    }
+  ],
+  "Math": [
+    {
+      "word": "algebraic rule",
+      "definition": "A math statement that shows a pattern or relationship.",
+      "synonyms": ["formula", "equation rule"],
+      "antonym": null,
+      "example": "y = 2x is an algebraic rule."
+    },
+    {
+      "word": "base",
+      "definition": "The bottom of a shape or object.",
+      "synonyms": ["foundation", "bottom"],
+      "antonym": "top",
+      "example": "The base of the pyramid is square."
+    },
+    {
+      "word": "circumference",
+      "definition": "The distance around a circle.",
+      "synonyms": ["perimeter", "boundary"],
+      "antonym": null,
+      "example": "We measured the circumference of the round table."
+    },
+    {
+      "word": "composite number",
+      "definition": "A number with more than two factors.",
+      "synonyms": ["non-prime", "divisible number"],
+      "antonym": "prime number",
+      "example": "12 is a composite number."
+    },
+    {
+      "word": "coordinate grid",
+      "definition": "A grid used to locate points with numbers.",
+      "synonyms": ["graph", "plot grid"],
+      "antonym": null,
+      "example": "We plotted the point on a coordinate grid."
+    }
+  ]
+},
+
+"6": {
+  "Science": [
+    {
+      "word": "abiotic",
+      "definition": "Non-living parts of an environment.",
+      "synonyms": ["non-living", "inanimate"],
+      "antonym": "biotic",
+      "example": "Rocks and water are abiotic factors."
+    },
+    {
+      "word": "adaptation",
+      "definition": "A change in a living thing that helps it survive.",
+      "synonyms": ["adjustment", "modification"],
+      "antonym": null,
+      "example": "Webbed feet are an adaptation for swimming."
+    },
+    {
+      "word": "allele",
+      "definition": "A form of a gene.",
+      "synonyms": ["gene type", "gene form"],
+      "antonym": null,
+      "example": "Eye color is determined by alleles."
+    },
+    {
+      "word": "biodiversity",
+      "definition": "The variety of life in an area.",
+      "synonyms": ["variety of life", "species diversity"],
+      "antonym": null,
+      "example": "The rainforest has high biodiversity."
+    },
+    {
+      "word": "biotic",
+      "definition": "Living parts of an environment.",
+      "synonyms": ["living", "animate"],
+      "antonym": "abiotic",
+      "example": "Plants and animals are biotic factors."
+    }
+  ],
+  "Social Studies": [
+    {
+      "word": "agriculture",
+      "definition": "Farming and raising animals for food.",
+      "synonyms": ["farming", "cultivation"],
+      "antonym": null,
+      "example": "Agriculture feeds the population."
+    },
+    {
+      "word": "ancient",
+      "definition": "Very old; from a long time ago.",
+      "synonyms": ["old", "historic"],
+      "antonym": "modern",
+      "example": "Ancient ruins tell stories of the past."
+    },
+    {
+      "word": "Apartheid",
+      "definition": "A system of racial separation in South Africa.",
+      "synonyms": ["segregation", "discrimination"],
+      "antonym": "integration",
+      "example": "Apartheid ended in the 1990s."
+    },
+    {
+      "word": "cash crop",
+      "definition": "A crop grown to sell for money.",
+      "synonyms": ["market crop", "sale crop"],
+      "antonym": null,
+      "example": "Coffee is a major cash crop in many countries."
+    },
+    {
+      "word": "Christianity",
+      "definition": "A religion based on the life and teachings of Jesus.",
+      "synonyms": ["Christian faith", "Christian religion"],
+      "antonym": null,
+      "example": "Christianity has followers all over the world."
+    }
+  ],
+  "Language Arts": [
+    {
+      "word": "author's purpose",
+      "definition": "The reason an author writes something.",
+      "synonyms": ["intent", "goal"],
+      "antonym": null,
+      "example": "Her author's purpose was to entertain readers."
+    },
+    {
+      "word": "autobiography",
+      "definition": "A book someone writes about their own life.",
+      "synonyms": ["life story", "memoir"],
+      "antonym": null,
+      "example": "She wrote an autobiography about her travels."
+    },
+    {
+      "word": "biography",
+      "definition": "A book about someone's life written by another person.",
+      "synonyms": ["life story", "profile"],
+      "antonym": null,
+      "example": "The biography tells about the scientist's discoveries."
+    },
+    {
+      "word": "cause and effect",
+      "definition": "When one thing makes another happen.",
+      "synonyms": ["reason and result", "cause-result"],
+      "antonym": null,
+      "example": "Poor weather caused the game to be canceled."
+    },
+    {
+      "word": "climax",
+      "definition": "The most exciting or important part of a story.",
+      "synonyms": ["peak", "high point"],
+      "antonym": null,
+      "example": "The hero's victory was the climax of the story."
+    }
+  ],
+  "Math": [
+    {
+      "word": "absolute value",
+      "definition": "The distance a number is from zero.",
+      "synonyms": ["magnitude", "distance"],
+      "antonym": null,
+      "example": "The absolute value of -3 is 3."
+    },
+    {
+      "word": "algebraic equation",
+      "definition": "An equation that contains variables.",
+      "synonyms": ["variable equation", "formula"],
+      "antonym": null,
+      "example": "2x + 5 = 9 is an algebraic equation."
+    },
+    {
+      "word": "algebraic expression",
+      "definition": "A math phrase that can include numbers, variables, and operations.",
+      "synonyms": ["math expression", "variable phrase"],
+      "antonym": null,
+      "example": "3x + 2 is an algebraic expression."
+    },
+    {
+      "word": "complementary angles",
+      "definition": "Two angles whose measures add up to 90 degrees.",
+      "synonyms": ["right-angle pair", "90-degree sum"],
+      "antonym": "supplementary angles",
+      "example": "Angles of 30° and 60° are complementary."
+    },
+    {
+      "word": "coordinates",
+      "definition": "Numbers that show a point's location on a grid.",
+      "synonyms": ["position", "location"],
+      "antonym": null,
+      "example": "(4, 5) are coordinates on the graph."
+    }
+  ]
+},
+"7": {
+  "Science": [
+    {
+      "word": "acceleration",
+      "definition": "A change in speed or direction.",
+      "synonyms": ["increase in speed", "speed-up"],
+      "antonym": "deceleration",
+      "example": "The car’s acceleration pushed me back in my seat."
+    },
+    {
+      "word": "amplitude",
+      "definition": "The height of a wave from its middle line.",
+      "synonyms": ["wave height", "size"],
+      "antonym": null,
+      "example": "Loud sounds have larger amplitude."
+    },
+    {
+      "word": "circuit",
+      "definition": "A path for electric current to travel.",
+      "synonyms": ["electrical path", "loop"],
+      "antonym": null,
+      "example": "The light won't turn on without a complete circuit."
+    },
+    {
+      "word": "conduction",
+      "definition": "The transfer of heat or electricity through materials.",
+      "synonyms": ["transmission", "passage"],
+      "antonym": null,
+      "example": "Metal is a good conductor for heat."
+    },
+    {
+      "word": "conservation of energy",
+      "definition": "The rule that energy cannot be created or destroyed.",
+      "synonyms": ["energy law", "energy rule"],
+      "antonym": null,
+      "example": "A roller coaster follows the conservation of energy."
+    }
+  ],
+  "Social Studies": [
+    {
+      "word": "ally",
+      "definition": "A friend or partner in a cause.",
+      "synonyms": ["partner", "supporter"],
+      "antonym": "enemy",
+      "example": "France was an ally of the United States in the Revolution."
+    },
+    {
+      "word": "biodiversity",
+      "definition": "The variety of life in a place.",
+      "synonyms": ["variety of species", "species diversity"],
+      "antonym": null,
+      "example": "Coral reefs have high biodiversity."
+    },
+    {
+      "word": "capital",
+      "definition": "The city where a government works.",
+      "synonyms": ["government city", "seat of government"],
+      "antonym": null,
+      "example": "London is the capital of England."
+    },
+    {
+      "word": "Congress",
+      "definition": "The law-making group of the United States.",
+      "synonyms": ["legislature", "lawmakers"],
+      "antonym": null,
+      "example": "Congress passes new laws."
+    },
+    {
+      "word": "consumer",
+      "definition": "A person who buys goods or services.",
+      "synonyms": ["buyer", "customer"],
+      "antonym": "seller",
+      "example": "The store offers discounts to loyal consumers."
+    }
+  ],
+  "Language Arts": [
+    {
+      "word": "able",
+      "definition": "Having the power or skill to do something.",
+      "synonyms": ["capable", "competent"],
+      "antonym": "unable",
+      "example": "She is able to ride a bike."
+    },
+    {
+      "word": "adjective phrase",
+      "definition": "A group of words that describe a noun.",
+      "synonyms": ["descriptive phrase", "modifier phrase"],
+      "antonym": null,
+      "example": "The boy with red hair is an adjective phrase."
+    },
+    {
+      "word": "antonym",
+      "definition": "A word that means the opposite of another word.",
+      "synonyms": ["opposite", "reverse"],
+      "antonym": null,
+      "example": "'Fast' is an antonym of 'slow'."
+    },
+    {
+      "word": "character development",
+      "definition": "How a character changes in a story.",
+      "synonyms": ["character growth", "character change"],
+      "antonym": null,
+      "example": "Her bravery was part of her character development."
+    },
+    {
+      "word": "climax",
+      "definition": "The most exciting or important part of a story.",
+      "synonyms": ["high point", "peak"],
+      "antonym": null,
+      "example": "The battle was the climax of the book."
+    }
+  ],
+  "Math": [
+    {
+      "word": "adjacent angles",
+      "definition": "Angles that share a side and a vertex.",
+      "synonyms": ["neighboring angles", "touching angles"],
+      "antonym": null,
+      "example": "The two adjacent angles form a straight line."
+    },
+    {
+      "word": "box and whisker plot",
+      "definition": "A graph that shows the spread of a data set.",
+      "synonyms": ["box plot", "statistical chart"],
+      "antonym": null,
+      "example": "We used a box and whisker plot in math class."
+    },
+    {
+      "word": "coefficient",
+      "definition": "A number multiplied by a variable.",
+      "synonyms": ["multiplier", "factor"],
+      "antonym": null,
+      "example": "In 3x, 3 is the coefficient."
+    },
+    {
+      "word": "combinations",
+      "definition": "Selections where order does not matter.",
+      "synonyms": ["groupings", "arrangements"],
+      "antonym": null,
+      "example": "Choosing two fruits is a combination problem."
+    },
+    {
+      "word": "counting principle",
+      "definition": "A way to find the number of possible outcomes.",
+      "synonyms": ["multiplication rule", "counting rule"],
+      "antonym": null,
+      "example": "The counting principle helps solve probability problems."
+    }
+  ]
+},
+"8": {
+  "Science": [
+    {
+      "word": "atmosphere",
+      "definition": "The layer of gases around a planet.",
+      "synonyms": ["air", "sky"],
+      "antonym": null,
+      "example": "The atmosphere contains oxygen for us to breathe."
+    },
+    {
+      "word": "carbon cycle",
+      "definition": "The movement of carbon through the Earth’s systems.",
+      "synonyms": ["carbon movement", "carbon process"],
+      "antonym": null,
+      "example": "Plants play a role in the carbon cycle."
+    },
+    {
+      "word": "chemical weathering",
+      "definition": "Breaking down rocks using chemical reactions.",
+      "synonyms": ["decomposition", "erosion"],
+      "antonym": "physical weathering",
+      "example": "Rainwater causes chemical weathering of stone."
+    },
+    {
+      "word": "climate",
+      "definition": "The usual weather in a place over time.",
+      "synonyms": ["weather pattern", "conditions"],
+      "antonym": null,
+      "example": "The climate here is warm and dry."
+    },
+    {
+      "word": "comet",
+      "definition": "A space object of ice and dust that orbits the sun.",
+      "synonyms": ["icy body", "space rock"],
+      "antonym": null,
+      "example": "We saw the comet through a telescope."
+    }
+  ],
+  "Social Studies": [
+    {
+      "word": "abolitionist movement",
+      "definition": "A group working to end slavery.",
+      "synonyms": ["anti-slavery movement", "freedom movement"],
+      "antonym": null,
+      "example": "The abolitionist movement grew in the 1800s."
+    },
+    {
+      "word": "agrarian",
+      "definition": "Related to farming.",
+      "synonyms": ["rural", "agricultural"],
+      "antonym": "urban",
+      "example": "The agrarian lifestyle focuses on crops and animals."
+    },
+    {
+      "word": "apartheid",
+      "definition": "A system of racial separation in South Africa.",
+      "synonyms": ["segregation", "discrimination"],
+      "antonym": "integration",
+      "example": "Apartheid was abolished in the 1990s."
+    },
+    {
+      "word": "bicameral",
+      "definition": "Having two parts in a law-making group.",
+      "synonyms": ["two-house", "dual-chamber"],
+      "antonym": "unicameral",
+      "example": "The U.S. Congress is bicameral."
+    },
+    {
+      "word": "boycott",
+      "definition": "To refuse to use or buy something as protest.",
+      "synonyms": ["protest", "ban"],
+      "antonym": "support",
+      "example": "They planned to boycott the unfair company."
+    }
+  ],
+  "Language Arts": [
+    {
+      "word": "alliteration",
+      "definition": "Repeating the same sound at the start of words.",
+      "synonyms": ["repetition", "sound pattern"],
+      "antonym": null,
+      "example": "She sells seashells is alliteration."
+    },
+    {
+      "word": "annotated bibliography",
+      "definition": "A list of sources with notes about them.",
+      "synonyms": ["source list with notes", "reference list"],
+      "antonym": null,
+      "example": "Her research project included an annotated bibliography."
+    },
+    {
+      "word": "character development",
+      "definition": "How a character changes in a story.",
+      "synonyms": ["character growth", "character change"],
+      "antonym": null,
+      "example": "His courage showed in his character development."
+    },
+    {
+      "word": "conflict resolution",
+      "definition": "The way problems in a story are solved.",
+      "synonyms": ["problem solving", "resolution"],
+      "antonym": null,
+      "example": "The story's conflict resolution brought peace to the kingdom."
+    },
+    {
+      "word": "figurative language",
+      "definition": "Using words in creative ways, not their usual meaning.",
+      "synonyms": ["imagery", "expressive language"],
+      "antonym": "literal language",
+      "example": "She used figurative language to make her poem beautiful."
+    }
+  ],
+  "Math": [
+    {
+      "word": "alternate exterior angles",
+      "definition": "Angles outside two lines on opposite sides of a transversal.",
+      "synonyms": ["outer opposite angles", "alternate angles"],
+      "antonym": null,
+      "example": "Alternate exterior angles are equal when lines are parallel."
+    },
+    {
+      "word": "alternate interior angles",
+      "definition": "Angles inside two lines on opposite sides of a transversal.",
+      "synonyms": ["inner opposite angles", "alternate angles"],
+      "antonym": null,
+      "example": "Alternate interior angles are equal in parallel lines."
+    },
+    {
+      "word": "altitude",
+      "definition": "The height of an object above the ground or sea.",
+      "synonyms": ["height", "elevation"],
+      "antonym": null,
+      "example": "The airplane is flying at high altitude."
+    },
+    {
+      "word": "analyze",
+      "definition": "To study something closely.",
+      "synonyms": ["examine", "inspect"],
+      "antonym": "ignore",
+      "example": "We analyze the data to find patterns."
+    },
+    {
+      "word": "Cartesian coordinates",
+      "definition": "Numbers that show a point’s place on a plane.",
+      "synonyms": ["graph coordinates", "ordered pair"],
+      "antonym": null,
+      "example": "(2, 3) are Cartesian coordinates."
+    }
+  ]
+}
+
+}

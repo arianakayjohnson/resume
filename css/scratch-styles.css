@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/*COLOR VARIABLES BASED ON BOOTSTRAP*/
+:root {
+    --scratch-teal: #1abc9c;
+    --scratch-navy-block: #2c3e50;
+    --scratch-navy-text: #1f2e3c;
+    --scratch-dark-gray: #3d4043;
+    --scratch-light-gray: #d7d7d7;
+    --scratch-almost-black: #242527;
+}
+
+/*MENU STYLES*/
+.menu {
+    background-color: var(--scratch-navy-block);
+    color: white;
+    text-align: center;
+}
+
+.menu h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.menu h2 {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.menu p {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+/*SIDE MENU STYLES*/
+#left-menu {
+    display: block;
+    background-color: var(--scratch-navy-block);
+    color: white;
+    padding: 15px;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#left-menu-header {
+    background-color: var(--scratch-teal);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /*padding-bottom: 16px;*/
+    border-radius: 5px;
+    /*position: fixed;
+    bottom: 0;*/
+}
+
+#left-menu-header:hover {
+    /*font-size: 2.1rem;*/
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#left-menu-header img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#left-menu-header h1 {
+    display: inline;
+    vertical-align: middle;
+    margin: 0;
+}
+
+#left-menu-footer {
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 185px;
+}
+
+.left-menu-button {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.left-menu-button:hover {
+    background-color: var(--scratch-teal);
+    color: var(--scratch-navy-text);
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+/*TOP MENU STYLES*/
+#top-menu {
+    display: none;
+    background-color: var(--scratch-navy-block);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+/*This header only appears on the small screens, so hovering isn't as helpful
+Instead, I might just add a home button next to the logo*/
+#top-menu h1:hover {
+    font-size: 2.1rem;
+}
+
+/*MAIN CONTENT DIV BLOCK STYLES*/
+/*This div holds all of the content, it's the main section of the screen*/
+#content { 
+    /*Borders are for testing only*/
+    border-color: var(--scratch-almost-black);
+    border-style: solid;
+    border-width: 1px;
+
+    top: 0;
+    right: 0;
+    width: auto;
+    margin-left: 230px; /*Adjust based on the width of the left menu */
+    padding: 30px;
+}
+
+/*Use this for one lesson plan with 2 content pieces*/
+/*I could add custom background pictures to some of these div blocks,
+and make the content pieces have a mostly-opaque background!*/
+.content-group {
+    /*Borders are for testing only*/
+    border-color: var(--scratch-almost-black);
+    border-style: solid;
+    border-width: 1px;
+
+    /*margin-left: 240px;*/
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    width: auto;
+    padding: 15px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+
+/*This is one piece of the content for a lesson plan*/
+.content-piece {
+    /*Borders are for testing only*/
+    border-color: var(--scratch-almost-black);
+    border-style: solid;
+    border-width: 1px;
+
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+}
+
+/*SMALLER SCREEN STYLES*/
+@media (max-width: 768px) {
+    #left-menu {
+        display: none;
+    }
+    #top-menu {
+        display: flex; /*display: block was working before*/
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    #content {
+        width: 90%;
+        margin: 15px;
+        padding: 15px;
+        /*position: fixed;*/
+        margin-top: 50px; /* Adjust based on the height of the top menu */
+        left: 0;
+    }
+    .content-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+/*BASIC TEXT TYPES*/
+h1 {
+    font-size: 2.5rem;
+    color: var(--scratch-navy-text);
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--scratch-dark-gray);
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--scratch-dark-gray);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: var(--scratch-almost-black);
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* More specific formatting for classes or IDs, if needed */
+#table-of-contents {
+    /*Borders are for testing only*/
+    border-color: var(--scratch-almost-black);
+    border-style: solid;
+    border-width: 1px;
+    
+    font-size: 1.2rem;
+    color: var(--scratch-dark-gray);
+    text-align: left;
+    /*margin: 20px 0;*/
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#reading-activity-A {
+    background-image: url('../assets/img/book-background-image-1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
