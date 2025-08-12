@@ -7,6 +7,7 @@
     --scratch-dark-gray: #3d4043;
     --scratch-light-gray: #d7d7d7;
     --scratch-almost-black: #242527;
+    --scratch-background-color: #f3f0ed;
 }
 
 /*MENU STYLES*/
@@ -36,6 +37,11 @@
     color: white;
     text-align: center;
     margin: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
 }
 
 /*SIDE MENU STYLES*/
@@ -123,26 +129,65 @@
     top: 0;
     left: 0;
     text-align: center;
+    /* border-bottom-width: 3px;
+    border-bottom-color: var(--scratch-teal);
+    border-bottom-style: solid; */
+}
+
+/* #top-menu h1 {
+    border-color: var(--scratch-teal);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+} */
+
+#top-menu-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: var(--scratch-teal);
+    
+    /* border-color: var(--scratch-teal);
+    border-style: solid;
+    border-width: 2px; */
+
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*This header only appears on the small screens, so hovering isn't as helpful
 Instead, I might just add a home button next to the logo*/
-#top-menu h1:hover {
+#top-menu-header:hover {
     font-size: 2.1rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
 }
 
 /*MAIN CONTENT DIV BLOCK STYLES*/
+body {
+    background-color: var(--scratch-background-color);
+}
+
 /*This div holds all of the content, it's the main section of the screen*/
 #content { 
-    /*Borders are for testing only*/
+    /*Borders are for testing only
     border-color: var(--scratch-almost-black);
     border-style: solid;
-    border-width: 1px;
+    border-width: 1px; */
 
     top: 0;
     right: 0;
     width: auto;
-    margin-left: 230px; /*Adjust based on the width of the left menu */
+    margin-left: 225px; /*Adjust based on the width of the left menu */
     padding: 30px;
 }
 
@@ -164,6 +209,10 @@ and make the content pieces have a mostly-opaque background!*/
     padding: 15px;
     border-radius: 3px;
     margin-bottom: 25px;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 /*This is one piece of the content for a lesson plan*/
@@ -173,9 +222,14 @@ and make the content pieces have a mostly-opaque background!*/
     border-style: solid;
     border-width: 1px;
 
-    flex: 1;
+    display: flex; /* This will allow vertical centering within this div */
+    flex-direction: column;
+    align-items: center;      /* horizontal centering */
+    justify-content: center;  /* vertical centering */
+    flex: 1; /*This relates to how the div will share space within the content-group div */
     padding: 20px;
     margin: 10px;
+    vertical-align: center;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
 }
@@ -186,7 +240,7 @@ and make the content pieces have a mostly-opaque background!*/
         display: none;
     }
     #top-menu {
-        display: flex; /*display: block was working before*/
+        display: flex;
         align-items: center;
         justify-content: center;
         gap: 20px;
@@ -229,6 +283,15 @@ h3 {
     margin-bottom: 10px;
 }
 
+h4 {
+    font-size: 1.2rem;
+    color: var(--scratch-navy-text);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
 p {
     font-size: 1.2rem;
     color: var(--scratch-almost-black);
@@ -238,16 +301,16 @@ p {
 
 /* More specific formatting for classes or IDs, if needed */
 #table-of-contents {
-    /*Borders are for testing only*/
+    /*Borders are for testing only
     border-color: var(--scratch-almost-black);
-    border-style: solid;
-    border-width: 1px;
+    border-style: dashed;
+    border-width: 1px; */
     
     font-size: 1.2rem;
     color: var(--scratch-dark-gray);
     text-align: left;
     /*margin: 20px 0;*/
-    width: 375px;
+    width: 450px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
@@ -255,8 +318,33 @@ p {
 }
 
 #reading-activity-A {
-    background-image: url('../assets/img/book-background-image-1.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url('../assets/img/teaching/book-background-image-1.jpg');
+}
+
+#reading-activity-B {
+    background-image: url('../assets/img/teaching/book-background-image-2.jpg');
+}
+
+#writing-activity-A {
+    background-image: url('../assets/img/teaching/parchment-background-image-1.jpg');
+}
+
+#writing-activity-B {
+    background-image: url('../assets/img/teaching/sky-background-image-1.jpg');
+}
+
+#writing-activity-C {
+    background-image: url('../assets/img/teaching/graveyard-background-image-1.jpg');
+}
+
+#math-activity-A {
+    background-image: url('../assets/img/teaching/sky-background-image-2.jpg');
+}
+
+#social-studies-activity-A {
+    background-image: url('../assets/img/teaching/parchment-background-image-1.jpg');
+    display: flex; /* This will allow vertical centering within this div */
+    flex-direction: column;
+    align-items: center;      /* horizontal centering */
+    justify-content: center;  /* vertical centering */
 }

@@ -183,6 +183,12 @@ address {
   line-height: inherit;
 }
 
+/* This style section was added by Ariana Cheney: ul */
+.portfolio-modal ul {
+  list-style-type: disc;
+  list-style-position: inside;;
+}
+
 ol,
 ul {
   padding-left: 2rem;
@@ -11002,6 +11008,10 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  /*This section was added by Ariana Cheney*/
+  border-color: var(--bs-secondary);
+  border-width: 2px;
+  border-style: solid;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -11042,5 +11052,5 @@ html {
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: var(--bs-secondary);
 }
